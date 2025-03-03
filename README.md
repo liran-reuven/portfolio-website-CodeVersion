@@ -5,6 +5,7 @@
 ---
 
 ## 📋 Table of Contents
+
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
@@ -31,5 +32,5 @@ Welcome to my portfolio! This website highlights my projects, skills, and experi
 ---
 
 ## 🔗 Contributing
-- https://github.com/mattboldt/typed.js
+
 ---
