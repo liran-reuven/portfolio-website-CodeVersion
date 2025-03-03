@@ -1,0 +1,24 @@
+.nav-arrows {
+  position: fixed;
+  bottom: 50%;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  pointer-events: none;
+}
+.nav-arrow {
+  cursor: pointer;
+  padding: 1rem;
+  color: #59738eff;
+  background: rgba(4, 21, 42, 0);
+  border: none;
+  border-radius: 50%;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+}
+.nav-arrow:hover {
+  color: #ffffff;
+  background: rgba(4, 21, 42, 0);
+}

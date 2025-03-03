@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+
+/* General styling */
+* {
+  /* font-family: "Source Code Pro", serif; */
+  font-family: "Fira Mono", monospace;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #000;
+  color: #33ff33;
+  overflow: auto;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main styling */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 150px 50px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.title {
+  color: #e5ebff;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.subtitle {
+  color: #6262f6;
+  font-size: 1.5rem;
+  margin-bottom: 15%;
+}
+.comment {
+  color: #8892b0;
+  margin-top: 2rem;
+  line-height: 1.8;
+}
+.theme-styling-one {
+  color: #7824ff;
+}
+.theme-styling-two {
+  color: #4effdf;
+}
+.theme-styling-three {
+  color: #ffffff;
+}
+.theme-styling-four {
+  color: #ffa07a;
+  text-decoration: underline;
+}
+.theme-styling-five {
+  display: flex;
+  align-items: center;
+  color: #ffa07a;
+}
+
+/* Sections Container */
+.sections-container {
+  height: calc(100vh - 90px); /* Subtract header and footer height */
+  margin-top: 45px; /* Header height */
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  position: relative;
+  z-index: 1;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.sections-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.section {
+  min-width: 100vw;
+  height: 100%;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+.user {
+  color: #00ff00;
+  font-weight: bold;
+}
+.education a {
+  color: #00ffff;
+  text-decoration: none;
+}
+.education a:hover {
+  text-decoration: underline;
+}
+.about_me a {
+  color: white;
+  text-decoration: none;
+}
+.about_me a:hover {
+  text-decoration: underline;
+}

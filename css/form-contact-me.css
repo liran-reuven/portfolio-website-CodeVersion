@@ -1,0 +1,66 @@
+.glass {
+  background-color: #111;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+.contact_me .content {
+  width: 40%;
+  max-width: 100%;
+  font-size: 1.1rem;
+}
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+}
+label {
+  display: flex;
+  align-items: center;
+}
+.form-group span {
+  margin-right: 10px;
+}
+span.quotes {
+  margin: 0;
+}
+input,
+textarea {
+  width: 100%;
+  border: none;
+  color: #ffa07a;
+  border-width: 1px;
+  background: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  resize: none;
+}
+.input-field {
+  outline: none;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  position: absolute;
+  bottom: 10%;
+  padding: 10px 20px;
+  background: none;
+  color: #3ad52c;
+  font-size: 1.2rem;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  text-shadow: 0 0 3px #3ad52c;
+}
+.btn:disabled {
+  color: #d52c2c;
+}
+.btn:disabled:hover {
+  cursor: pointer;
+  text-shadow: 0 0 3px #d52c2c;
+}

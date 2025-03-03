@@ -1,0 +1,285 @@
+<html lang="en">
+  <head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="This is a sample page." />
+    <meta name="author" content="Liran Reuven" />
+
+    <!-- Title and Favicon -->
+    <title>DevFolio</title>
+    <link rel="icon" type="image/x-icon" href="img/svg/layer-group-solid.svg" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="" />
+
+    <!-- CSS and Fonts -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/theme-mode.css" />
+    <link rel="stylesheet" href="css/form-contact-me.css" />
+    <link rel="stylesheet" href="css/navigation-arrows.css" />
+    <link rel="stylesheet" href="css/interactive-background.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="dns-prefetch" href="https://example.com" />
+
+    <!-- Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX"></script> -->
+  </head>
+  <body>
+    <div class="background-container">
+      <div class="gradient-cursor"></div>
+    </div>
+
+    <header>
+      <nav class="top-bar">
+        <a class="first logo">liran-reuven</a>
+        <a href="#hello" class="active">hello</a>
+        <a href="#about_me" class="">about_me</a>
+        <a href="#education" class="">education</a>
+        <a href="#experience" class="">experience</a>
+        <a href="#projects" class="last">projects</a>
+        <a href="#contact_me" class="split">contact_me</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="nav-arrows">
+        <button class="nav-arrow prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="nav-arrow next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <button
+        onclick="darkLightFunction()"
+        id="themeToggle"
+        class="theme-toggle"
+      >
+        <i class="fa-regular fa-moon" id="themeIcon"></i>
+      </button>
+      <div class="sections-container">
+        <section id="hello" class="hello section">
+          <div class="content">
+            <p>Hi all. I am</p>
+            <h1 class="title">Liran Reuven</h1>
+            <div class="subtitle">> Technical Support Engineer @voicenter</div>
+            <p class="comment">
+              // Actively pursuing a career transition into software
+              development<br />
+              // you can also see it on my Github page<br />
+              <span class="theme-styling-one">const</span
+              ><span class="theme-styling-two"> githubLink </span
+              ><span class="theme-styling-three">= </span
+              ><a
+                href="https://github.com/liran-reuven"
+                class="theme-styling-four"
+                target="_blank"
+                >"https://github.com/liran-reuven"</a
+              >
+            </p>
+          </div>
+        </section>
+        <section id="about_me" class="about_me section">
+          <div class="content">
+            <pre>
+              <span class="user">user@portfolio:~$</span> ./about-me --help
+              
+              Usage: about-me [OPTIONS]  
+              
+              Options:  
+                --name        Liran Reuven
+                --role        Tier 2 Technical Support Engineer
+                --experience  Technical support & cloud solutions, process automation
+                --projects    Portfolio website, Chrome extension (lang switch), Magic Mirror, File organizer
+                --skills      AWS, SQL, Python, Linux, Problem solving, Cyber security
+                --education   Pre Security (TryHackMe), SQL (Udemy), Linux (LPI-1)
+                --contact     [<a href="mailto: liran.reu@gmail.com">liran.reu@gmail.com</a>] | [<a href="https://www.linkedin.com/in/liran-reuven-link">www.linkedin.com/in/liran-reuven-link</a>]
+              
+              Description:  
+              A passionate problem-solver with expertise in cloud storage solutions, software troubleshooting, and process automation.  
+              Currently building innovative projects while continuously expanding my knowledge in tech.  
+            </pre>
+          </div>
+        </section>
+        <section id="education" class="education section">
+          <div class="content">
+            <pre>
+              <span class="user">user@portfolio:~$</span> cat ~/education.log
+              
+              [SQL: From Zero to Hero]  
+              📅 Aug. 2024 - Oct. 2024  
+              📚 Mastered SQL essentials: CRUD, Joins, Constraints, Views, and Stored Procedures.  
+              🔗 <a href="https://www.udemy.com/course/sql-mastery-learn-enough-sql-to-be-a-professional/?couponCode=KEEPLEARNING" target="_blank">Udemy Course</a>  
+              
+              [Pre Security - TryHackMe]  
+              📅 Jun. 2023  
+              🔒 Introduction to cybersecurity fundamentals and hands-on labs.  
+              🔗 <a href="https://tryhackme.com/path/outline/presecurity" target="_blank">TryHackMe Course</a>  
+              
+              [Intro to Cyber Security - TryHackMe]  
+              📅 Dec. 2022 - Jun. 2023  
+              💻 First exposure to hacking, attack simulations, and cyber career paths.  
+              🔗 <a href="https://tryhackme.com/path/outline/introtocyber" target="_blank">TryHackMe Course</a>  
+              
+              [Linux Essentials]  
+              📅 Aug. 2022 - Sep. 2022  
+              🐧 Developed command-line skills, user management, and system administration.  
+              🔗 <a href="https://www.lpi.org/our-certifications/linux-essentials-overview/" target="_blank">LPI Certification</a>  
+              
+              [Cyber Security Specialist - Kernelios]  
+              📅 Aug. 2022 - Dec. 2022  
+              🛡️ Completed 450-hour hands-on cybersecurity course: Linux, Networking, Python, Java.  
+              🔗 <a href="https://www.kernelios.com/courses_he/%d7%a7%d7%95%d7%a8%d7%a1-%d7%9e%d7%99%d7%99%d7%a9%d7%9d-%d7%94%d7%92%d7%a0%d7%aa-%d7%a1%d7%99%d7%99%d7%91%d7%a8/" target="_blank">Kernelios Course</a>  
+              </pre>
+          </div>
+        </section>
+        <section id="experience" class="experience section">
+          <div class="content">
+            <pre>
+              <span class="user">user@portfolio:~$</span> cat ~/experience.log  
+              
+              [Aug 2024 - Present]  
+              Role: Tier 2 Technical Support Engineer  
+              Company: [Voicenter]  
+              - Diagnosing & resolving complex software issues.  
+              - Bridging the gap between frontline support and development teams.  
+              - Optimizing Amazon S3 bucket storage solutions.  
+              - Implementing security policies & lifecycle management for S3.  
+              - Ensuring seamless system performance & user experience.  
+              
+              [Jan 2023 - Aug 2024]  
+              Role: Tech Support Agent  
+              Company: [Voicenter]  
+              - Provided troubleshooting for hardware, software, and system issues.  
+              - Delivered prompt, effective customer support.  
+              - Ensured smooth operations through technical expertise.
+            </pre>
+          </div>
+        </section>
+        <section id="projects" class="projects section">
+          <div class="content">
+            <pre>
+              <span class="user">user@portfolio:~$</span> ls -ll ~/projects  
+              total 3  
+              drwxr-xr-x  2 user user 4096 Aug 2024  Portfolio_Website   # My personal website showcasing my work  
+              drwxr-xr-x  2 user user 4096 Aug 2024  Chrome_Extension    # A custom extension to enhance productivity  
+              drwxr-xr-x  2 user user 4096 Jul 2024  Magic_Mirror        # Interactive smart mirror displaying real-time data  
+            </pre>
+          </div>
+        </section>
+        <section id="contact_me" class="contact_me section">
+          <div class="content glass">
+            <form id="contact-form" action="" method="post">
+              <div class="form-group">
+                <label for="name"
+                  ><span class="theme-styling-one">var</span
+                  ><span class="theme-styling-two"> name </span
+                  ><span class="theme-styling-three">= </span></label
+                >
+                <span class="theme-styling-five quotes">"</span
+                ><input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="input-field"
+                  required
+                /><span class="theme-styling-five quotes">"</span>
+              </div>
+              <div class="form-group">
+                <label for="email"
+                  ><span class="theme-styling-one">var</span
+                  ><span class="theme-styling-two"> email </span
+                  ><span class="theme-styling-three">= </span></label
+                >
+                <span class="theme-styling-five quotes">"</span
+                ><input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="input-field"
+                  required
+                /><span class="theme-styling-five quotes">"</span>
+              </div>
+              <div class="form-group">
+                <label for="subject"
+                  ><span class="theme-styling-one">var</span
+                  ><span class="theme-styling-two"> subject </span
+                  ><span class="theme-styling-three">= </span></label
+                >
+                <span class="theme-styling-five quotes">"</span
+                ><input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="input-field"
+                  required
+                /><span class="theme-styling-five quotes">"</span>
+              </div>
+              <div class="form-group">
+                <label for="message"
+                  ><span class="theme-styling-one">var</span
+                  ><span class="theme-styling-two"> message </span
+                  ><span class="theme-styling-three">= </span></label
+                >
+                <span class="theme-styling-five quotes">"</span
+                ><textarea
+                  id="message"
+                  name="message"
+                  rows="1"
+                  class="input-field"
+                  required
+                ></textarea
+                ><span class="theme-styling-five quotes">"</span>
+              </div>
+              <div class="submit-btn">
+                <button
+                  type="submit"
+                  onclick="sendEmail()"
+                  class="btn"
+                  id="submit-btn"
+                >
+                  Publish <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="bottom-bar">
+      <a href="#" class="first">find me in:</a>
+      <a
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/liran_reuven/"
+        target="_blank"
+        class="last"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://github.com/liran-reuven" target="_blank" class="split"
+        >@liran-reuven <i class="fab fa-github"></i
+      ></a>
+    </footer>
+
+    <script src="js/cursor-animation.js"></script>
+    <script src="js/navigation-bar.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

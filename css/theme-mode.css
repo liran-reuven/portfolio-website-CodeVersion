@@ -1,0 +1,17 @@
+:root {
+  --background-color: #fff;
+}
+.dark-mode {
+  --background-color: #000;
+}
+button.theme-toggle {
+  all: unset;
+  position: absolute;
+  cursor: pointer;
+  padding: 9px 15px;
+  font-size: 25px;
+  top: 55px;
+  left: 0;
+  color: #ffffff;
+  z-index: 1000;
+}
