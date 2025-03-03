@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
       message: messageInput.value.trim(),
     };
 
-    fetch("https://hook.eu2.make.com/f0a6qtyt142lip7blh1ipt46ntkanuqj", {
+    fetch("https://your-endpoint", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
