@@ -20,18 +20,13 @@ Welcome to my portfolio! This website highlights my projects, skills, and experi
 
 ## 🌟 Features
 
-- 🖼️ Interactive project gallery.
-- 📱 Fully responsive design for all devices.
-- 🧑‍💻 Sections for skills, experience, and contact information.
-- 📈 Analytics for tracking user interactions.
+- 🧑‍💻 Sections for education, experience, and projects information.
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **Frontend**: HTML, CSS (TailwindCSS), JavaScript
-- **Frameworks**: React.js (or replace with your framework)
-- **Deployment**: Netlify (or Vercel, etc.)
 
 ---
 
